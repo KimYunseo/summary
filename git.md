@@ -1,21 +1,77 @@
 GIT
 ===
 
-1.  VSC(Version Control System)
+1.VSC(Version Control System)
 
 >파일 변경이력을 기록해 관리를 쉽게 할 수 있도록 해주는 시스템.
 
-2.  이점 
+2.이점 
 
 >* 변경이력을 통해 그 내용 공유 가능
 >* 타인 작업내용을 쉽게 병합
 >* 쉽게 복구 가능
 >* Branch를 통해 병렬관리 가능
 
-3.  Git 작업 흐름
+3.Git 작업 흐름
 
-| working Directory	| Staging Area	| Repository |
-|-------------------|---------------|------------|
-|           <-   Checkout	 the  project     ---  |
-|   	 ---   Stage Fixes       -->	|            |
-|                 	|       ---     Commit -->   |
+|   	|   working Directory	|   Staging Area	|  Repository 	|
+|---	|---	|---	|---	|
+|   Checkout the project	|  <-- 	|  <-- 	|  <-- 	|
+|  Stage Fixes 	|  --> 	|  --> 	|   	|
+|   Commit	|   	|  --> 	|  --> 	|
+
+4.working Directory
+
+>* 실제 작업하고 공간
+
+5.staging area
+
+>1)정의
+
+>>* Git이 변경이력을 관리하는 부분
+
+>2)기능
+
+>* working Directory에서 Git 명령어를 통해 추가 가능
+>* 이 곳에 올라와 있는 파일만 저장소에 추가 수정 가능
+>* 일종의 준비구역
+
+>3)gitignore
+
+>>* [IDE](https://ko.wikipedia.org/wiki/%ED%86%B5%ED%95%A9_%EA%B0%9C%EB%B0%9C_%ED%99%98%EA%B2%BD "IDE")( Integrated Development Environment) 의존성 파일이 존재
+>>* 개인의  작업환경과 관련된 파일들로 저장소에 추가되지 않아야하는 파일들이 프로젝트에 존재
+>>> *tip 프로젝트 들어가기 전에 http://gitignore.io 에서 gitignore파일 설정에 필요한  쉽게 구할 수 있다.
+
+6.Repository
+
+>1)정의
+>>* 변경이력을 저장한 장소
+
+>2)Local Repository
+
+>>* 외부에  위치하지 않고 작업하고 있는 컴퓨터 존재
+>>* 인터넷 연결되지 않아도 가능
+>>* 잦은 저장소 처리요청에도 부담이 없음
+>>* 외부 저장소에 손실이 발생하도라도 빠르게 복구가능
+
+>3)Remote Repository
+
+>>* 전통적인 관점에서의 저장소개념
+>>* 외부서버로 변경이력 기록
+>>* 다중 사용자로부터 관리되는 각 로컬 저장소 접점
+
+7.Git의 구조
+
+|   	|   working Directory	|   Staging Area	|  Local Repository 	|   Remote Repository	|
+|---	|---	|---	|---	|---	|
+| add 	| -->  	|  --> 	|   	|   	|
+| commit  	|   	|   -->	|  --> 	|   	|
+|  push 	|   	|   	|   -->	|   -->	|
+|   fetch	|   	|   	|   <--	|  <-- 	|
+|  merge 	|   <--	|   <--	|  <-- 	|   	|
+|   pull	|   <--	|   <--	|  <-- 	|   <--	|
+
+
+8.주의점
+
+>* 충돌 방지를 위해 push 전에 먼저 pull해야한다.
