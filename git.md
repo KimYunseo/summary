@@ -28,7 +28,7 @@ GIT
 
 >1)정의
 
->>* Git이 변경이력을 관리하는 부분
+>* Git이 변경이력을 관리하는 부분
 
 >2)기능
 
@@ -40,7 +40,7 @@ GIT
 
 >>* [IDE](https://ko.wikipedia.org/wiki/%ED%86%B5%ED%95%A9_%EA%B0%9C%EB%B0%9C_%ED%99%98%EA%B2%BD "IDE")( Integrated Development Environment) 의존성 파일이 존재
 >>* 개인의  작업환경과 관련된 파일들로 저장소에 추가되지 않아야하는 파일들이 프로젝트에 존재
->>>* tip 프로젝트 들어가기 전에 http://gitignore.io 에서 gitignore파일 설정에 필요한  쉽게 구할 수 있다.
+>>* **tip!** 프로젝트 들어가기 전에 http://gitignore.io 에서 gitignore파일 설정에 필요한  쉽게 구할 수 있다.
 
 6.Repository
 
@@ -74,4 +74,4 @@ GIT
 
 8.주의점
 
->* 충돌 방지를 위해 push 전에 먼저 pull해야한다.
+>* **충돌방지**를 위해 push 전에 먼저 **pull**해야한다.
