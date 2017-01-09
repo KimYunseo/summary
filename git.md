@@ -15,7 +15,7 @@ GIT
 3.Git 작업 흐름
 
 |   	|   working Directory	|   Staging Area	|  Repository 	|
-|---	|---	|---	|---	|
+|---	|:-:|:-:|:-:|
 |   Checkout the project	|  <-- 	|  <-- 	|  <-- 	|
 |  Stage Fixes 	|  --> 	|  --> 	|   	|
 |   Commit	|   	|  --> 	|  --> 	|
@@ -63,7 +63,7 @@ GIT
 7.Git의 구조
 
 |   	|   working Directory	|   Staging Area	|  Local Repository 	|   Remote Repository	|
-|---	|---	|---	|---	|---	|
+|:-:	|:-:	|:-:	|:-:	|:-:	|
 | add 	| -->  	|  --> 	|   	|   	|
 | commit  	|   	|   -->	|  --> 	|   	|
 |  push 	|   	|   	|   -->	|   -->	|
