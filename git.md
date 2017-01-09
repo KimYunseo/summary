@@ -40,7 +40,7 @@ GIT
 
 >>* [IDE](https://ko.wikipedia.org/wiki/%ED%86%B5%ED%95%A9_%EA%B0%9C%EB%B0%9C_%ED%99%98%EA%B2%BD "IDE")( Integrated Development Environment) 의존성 파일이 존재
 >>* 개인의  작업환경과 관련된 파일들로 저장소에 추가되지 않아야하는 파일들이 프로젝트에 존재
->>> *tip 프로젝트 들어가기 전에 http://gitignore.io 에서 gitignore파일 설정에 필요한  쉽게 구할 수 있다.
+>>>* tip 프로젝트 들어가기 전에 http://gitignore.io 에서 gitignore파일 설정에 필요한  쉽게 구할 수 있다.
 
 6.Repository
 
