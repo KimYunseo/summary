@@ -44,6 +44,8 @@
 
 -하버드 구조
 
+![하버드](https://github.com/KimYunseo/summary/blob/master/harvard.png?raw=true)
+
 * 프로그램 메모리와 데이터 메모리가 물리적으로 분리
 
 * 속도가 빠름(병목 X)
@@ -52,6 +54,8 @@
 
 
 -폰 노이만 구조
+
+![폰노이만](https://github.com/KimYunseo/summary/blob/master/von_neumann.png?raw=true)
 
 * 프로그램메모리와 데이터메모리가 구분되어 있지 않고 하나의 버스를 가지고 있는 구조
 
