@@ -90,3 +90,28 @@ $ cd 디렉토리 이동
 $ cd .. 바로 앞 경로로 이동
 
 $ open . 현재 위치의 파인더를 여는 커멘드
+
+
+
+git with command
+================
+
+1.git 기본명령어
+
+* git init : 현재 있는 워킹 디렉토리에 .git 폴더를 생성
+
+* git status : 현재 워킹디렉토리 상태 확인
+
+* git clone :   remote 저장소를 통째로 워킹 디렉토리에 복사
+
+* git pull : remote의 정보를 가져와 워킹디렉토리와 병합
+
+* git add 파일명 : 새로 만들어 졌거나 변경된 파일을 워킹 디렉토리에서  stage에 올리기
+
+* git add . : 한꺼번에 stage 에 올리기
+
+* git commit : stage에 올라온 파일을 local repo에 올리기 + comment를 남기기, comment 쓰는 창에서 첫번째 줄은 제목이다.
+
+* git remote add origin http://~  : remote와 연동시키기
+
+* git push : remote로 파일과 comment 보내기
