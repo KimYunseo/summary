@@ -73,6 +73,15 @@
 
 >외부 - 폰 노이만
 
+-캐시메모리
+
+![캐시메모리](https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fcs.uwec.edu%2F~buipj%2Fteaching%2Fcs.352.f12%2Fstatic%2Fimage%2Fmemory_hierarchy.png)
+
+>* CPU의 처리 속도와 DRAM과의 속도 차이로 인해 메모리 속박 문제 등이 발생 하는 대 이를 해결하기 위해 도입된 메모리이다.
+
+>* DRAM의 명령어들을 미리 받아 저장하고 이를 CPU로 전해 주는 역할을 한다.
+
+>* 
 
 5.데이터의 표현
 
