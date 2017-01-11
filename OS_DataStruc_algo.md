@@ -36,7 +36,7 @@
 
 >* 프로세스관리
 
-[프로세스](https://github.com/KimYunseo/summary/blob/master/image/process.png?raw=true)
+![프로세스](https://github.com/KimYunseo/summary/blob/master/image/process.png?raw=true)
 
 * 제출 : 작업을 처리하기 위해 사용자가 작업을 시스템에 제출한 상태
 * 접수 : 제출된 작업이 스풀 공간인 디스크의 할당 위치에 저장된 상태
@@ -162,7 +162,7 @@
 
 >> 단순연결리스트
 
-[단순연결리스트](https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F9c%2FSingle_linked_list.png%2F400px-Single_linked_list.png)
+![단순연결리스트](https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F9c%2FSingle_linked_list.png%2F400px-Single_linked_list.png)
 
 >>>* 가장 단순한 형태의 연결리스트 
 
@@ -170,7 +170,7 @@
 
 >> 이중연결리스트
 
-[이중연결리스트](https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fca%2FDoubly_linked_list.png%2F400px-Doubly_linked_list.png)
+![이중연결리스트](https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fca%2FDoubly_linked_list.png%2F400px-Doubly_linked_list.png)
 
 >>>* 다음 노드의 참조와 이전노드의 참조를 같이 가리키게 한 방법이다.
 
@@ -180,7 +180,7 @@
 
 >> 원형연결리스트
 
-[원형연결리스트](https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F98%2FCircurlar_linked_list.png%2F400px-Circurlar_linked_list.png)
+![원형연결리스트](https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F98%2FCircurlar_linked_list.png%2F400px-Circurlar_linked_list.png)
 
 >>>* 이중 연결리스트의 처음과 끝을 이으면 만들 수 있음.
 
@@ -190,7 +190,7 @@
 
 -스택
 
-[스택](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/600px-Data_stack.svg.png)
+![스택](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/600px-Data_stack.svg.png)
 
 >* 스택 자료구조에 먼저 저장된 것이 꺼내어 쓸 때는 제일 나중에 나온다. 
 
@@ -214,7 +214,7 @@
 
 -그래프
 
-[그래프](https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5b%2F6n-graf.svg%2F333px-6n-graf.svg.png)
+![그래프](https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5b%2F6n-graf.svg%2F333px-6n-graf.svg.png)
 
 >* 그래프는 정점(Vertex)과 정점들을 연결하는 변(Edge)으로 구성이 된다
 
@@ -233,7 +233,7 @@
 
 *선택
 
-[선택](https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif)
+![선택](https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif)
 
 >①주어진 리스트 중에 최솟값을 찾는다.
 
@@ -243,7 +243,7 @@
 
 *버블
 
-[버블](https://upload.wikimedia.org/wikipedia/commons/3/37/Bubble_sort_animation.gif)
+![버블](https://upload.wikimedia.org/wikipedia/commons/3/37/Bubble_sort_animation.gif)
 
 >인접한 두 원소를 검사하여 더크면 오른쪽으로 이동 후 다음 인접한 원소검사........
 
@@ -251,9 +251,9 @@
 
 *삽입
 
-[삽입1](https://upload.wikimedia.org/wikipedia/commons/2/25/Insertion_sort_animation.gif)
+![삽입1](https://upload.wikimedia.org/wikipedia/commons/2/25/Insertion_sort_animation.gif)
 
-[삽입2](https://upload.wikimedia.org/wikipedia/commons/e/ea/Insertion_sort_001.PNG)
+![삽입2](https://upload.wikimedia.org/wikipedia/commons/e/ea/Insertion_sort_001.PNG)
 
 >비교군과 비교 하면서 삽입
 
@@ -263,7 +263,7 @@
 
 *퀵
 
-[퀵](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+![퀵](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
 
 >특정 기준점을 잡아서 정렬하는 방법
 
