@@ -32,6 +32,8 @@
 
 >* 프로세스관리
 
+[프로세스](https://github.com/KimYunseo/summary/blob/master/image/process.png?raw=true)
+
 >>>보조기억장치에서 메모리로 명령어 보내고 메모리에 명령어가 올라아가 있는 상태
 
 >>>주기억장치는 전원 내리면 내용 사라짐, 따라서 보조 기억장치 필요.
