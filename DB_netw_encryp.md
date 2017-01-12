@@ -64,9 +64,13 @@
 -WAN : 광역통신망
 
 
--Server : 
+-Server 
+
+>* 클라이언트에게 네트워크를 통해 정보나 서비스를 제공하는 컴퓨터(server computer) 또는 프로그램(server program)
 
 -Client
+
+>* 네트워크를 통하여 서버라는 다른 컴퓨터 시스템 상의 원격 서비스에 접속할 수 있는 응용 프로그램이나 서비스
 
 -Internet
 
@@ -96,13 +100,21 @@
 
 >* http://www.daum.net:80/map
 
->*ftp://id:pw@192.168.1.10:777/mydir
+>* ftp://id:pw@192.168.1.10:777/mydir
 
 >* file://localhost/movie/baseball.avi
 
 -URI(Uniform Resource Identifier) [통합자원식별자](https://ko.wikipedia.org/wiki/%ED%86%B5%ED%95%A9_%EC%9E%90%EC%9B%90_%EC%8B%9D%EB%B3%84%EC%9E%90)
 
->* 인터넷에 있는 자원을 나타내는 유일한 주소. 
+>* 인터넷에 있는 자원을 나타내는 유일한 주소. 자원을 식별할 수 있는 문자열
+
+-URL URI차이점
+
+>* http://ko.wikipedia.org/ 라는 주소는 URI이면서 URL.
+
+>* https://www.google.co.kr/search?q=uri 에서 https://www.google.co.kr/search 까지는 URL, 원하는 정보를 얻기 위해선 q=uri라는 식별자 필요하므로 https://www.google.co.kr/search?q=uri 는 URI
+
+>* URI = URL+URN
 
 -Protocol
 
